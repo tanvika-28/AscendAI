@@ -30,14 +30,13 @@ const HeroSection = () => {
     <section className="w-full pt-36 md:pt-48 pb-10">
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
-          <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
-            Your AI Career Coach for
-            <br />
-            Professional Success
-          </h1>
+          <h1 className="text-4xl font-bold md:text-5xl lg:text-6xl xl:text-7xl bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">
+           Empower Your Future with
+             <br />
+           AI-Driven Career Mentoring
+           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-            Advance your career with personalized guidance, interview prep, and
-            AI-powered tools for job success.
+            Unlock career growth with intelligent guidance, expert interview coaching, and AI-driven tools tailored for your success journey.
           </p>
         </div>
         <div className="flex justify-center space-x-4">
@@ -46,7 +45,6 @@ const HeroSection = () => {
               Get Started
             </Button>
           </Link>
-          
         </div>
         <div className="hero-image-wrapper mt-5 md:mt-0">
           <div ref={imageRef} className="hero-image">
