@@ -10,7 +10,7 @@ export const testimonial = [
   {
     quote:
       "The industry insights helped me pivot my career successfully. The salary data was spot-on!",
-    author: "Michael Rodriguez",
+    author: "Mark Zuckerberg",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
     role: "Product Manager",
     company: "StartUp Inc.",
